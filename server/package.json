@@ -1,0 +1,10 @@
+{
+  "name": "draw-to-build-server",
+  "version": "2.0.0",
+  "description": "Global Build server for Draw To Build (ownership + 24h auto-delete). Zero dependencies.",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "test": "node test/server.test.js" },
+  "engines": { "node": ">=18" },
+  "license": "UNLICENSED",
+  "private": true
+}
